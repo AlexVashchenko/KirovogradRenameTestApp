@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39EA185A613332C62158AE3F /* libPods-NewName.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C80D6502ADB699FD672F754 /* libPods-NewName.a */; };
+		E70DF0B81D2BC96D001CCF95 /* RKRDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0B71D2BC96D001CCF95 /* RKRDistrict.m */; };
+		E70DF0BB1D2BC9BF001CCF95 /* RKRStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0BA1D2BC9BF001CCF95 /* RKRStreet.m */; };
+		E70DF0D11D2C005A001CCF95 /* RKRError.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D01D2C005A001CCF95 /* RKRError.m */; };
+		E70DF0D71D2C0BAB001CCF95 /* RKRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D61D2C0BAB001CCF95 /* RKRBaseViewController.m */; };
+		E70DF0DA1D2C0BD4001CCF95 /* RKRSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D91D2C0BD4001CCF95 /* RKRSearchViewController.m */; };
+		E70DF0DD1D2C0C4D001CCF95 /* RKRSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0DC1D2C0C4D001CCF95 /* RKRSearchCell.m */; };
+		E70DF0E01D2C0C90001CCF95 /* RKRStreetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0DF1D2C0C90001CCF95 /* RKRStreetCell.m */; };
+		E70DF0E31D2C0DAF001CCF95 /* RKRSearchDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0E21D2C0DAF001CCF95 /* RKRSearchDataManager.m */; };
+		E70DF0E61D2C0F80001CCF95 /* RKRSearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0E51D2C0F80001CCF95 /* RKRSearchNavigationController.m */; };
+		E70DF0EC1D2C100D001CCF95 /* RKRSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0EB1D2C100D001CCF95 /* RKRSearchBaseViewController.m */; };
+		E77BE34C1D2D9230006C9FE4 /* RKRDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE34B1D2D9230006C9FE4 /* RKRDatabaseService.m */; };
+		E77BE34F1D2D9289006C9FE4 /* RKRDistricsService.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE34E1D2D9289006C9FE4 /* RKRDistricsService.m */; };
+		E77BE3541D2D9297006C9FE4 /* RKRApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE3511D2D9297006C9FE4 /* RKRApiManager.m */; };
+		E77BE3551D2D9297006C9FE4 /* RKRSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE3531D2D9297006C9FE4 /* RKRSessionManager.m */; };
+		E78265691D2BC10B00E4A3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78265681D2BC10B00E4A3EF /* main.m */; };
+		E782656C1D2BC10B00E4A3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E782656B1D2BC10B00E4A3EF /* AppDelegate.m */; };
+		E78265721D2BC10B00E4A3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78265701D2BC10B00E4A3EF /* Main.storyboard */; };
+		E78265741D2BC10B00E4A3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78265731D2BC10B00E4A3EF /* Assets.xcassets */; };
+		E78265771D2BC10B00E4A3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78265751D2BC10B00E4A3EF /* LaunchScreen.storyboard */; };
+		E7FA9CF71D2D94E400B32390 /* RKRSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0DC1D2C0C4D001CCF95 /* RKRSearchCell.m */; };
+		E7FA9CF81D2D94E400B32390 /* RKRStreetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0DF1D2C0C90001CCF95 /* RKRStreetCell.m */; };
+		E7FA9CF91D2D94E400B32390 /* RKRStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0BA1D2BC9BF001CCF95 /* RKRStreet.m */; };
+		E7FA9CFA1D2D94E400B32390 /* RKRSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D91D2C0BD4001CCF95 /* RKRSearchViewController.m */; };
+		E7FA9CFC1D2D94E400B32390 /* RKRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D61D2C0BAB001CCF95 /* RKRBaseViewController.m */; };
+		E7FA9CFD1D2D94E400B32390 /* RKRSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0EB1D2C100D001CCF95 /* RKRSearchBaseViewController.m */; };
+		E7FA9CFE1D2D94E400B32390 /* RKRDistricsService.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE34E1D2D9289006C9FE4 /* RKRDistricsService.m */; };
+		E7FA9CFF1D2D94E400B32390 /* RKRSearchDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0E21D2C0DAF001CCF95 /* RKRSearchDataManager.m */; };
+		E7FA9D001D2D94E400B32390 /* RKRSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE3531D2D9297006C9FE4 /* RKRSessionManager.m */; };
+		E7FA9D011D2D94E400B32390 /* RKRDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0B71D2BC96D001CCF95 /* RKRDistrict.m */; };
+		E7FA9D021D2D94E400B32390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E782656B1D2BC10B00E4A3EF /* AppDelegate.m */; };
+		E7FA9D031D2D94E400B32390 /* RKRDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE34B1D2D9230006C9FE4 /* RKRDatabaseService.m */; };
+		E7FA9D041D2D94E400B32390 /* RKRApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BE3511D2D9297006C9FE4 /* RKRApiManager.m */; };
+		E7FA9D051D2D94E400B32390 /* RKRError.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0D01D2C005A001CCF95 /* RKRError.m */; };
+		E7FA9D061D2D94E400B32390 /* RKRSearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70DF0E51D2C0F80001CCF95 /* RKRSearchNavigationController.m */; };
+		E7FA9D071D2D94E400B32390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78265681D2BC10B00E4A3EF /* main.m */; };
+		E7FA9D091D2D94E400B32390 /* libPods-NewName.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C80D6502ADB699FD672F754 /* libPods-NewName.a */; };
+		E7FA9D0B1D2D94E400B32390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78265751D2BC10B00E4A3EF /* LaunchScreen.storyboard */; };
+		E7FA9D0C1D2D94E400B32390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78265731D2BC10B00E4A3EF /* Assets.xcassets */; };
+		E7FA9D0D1D2D94E400B32390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78265701D2BC10B00E4A3EF /* Main.storyboard */; };
+		E7FA9F941D2DAA0800B32390 /* RKRSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA9F931D2DAA0800B32390 /* RKRSearchResultController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14BB78B8E7B3F208A9799B81 /* Pods-NewName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewName.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewName/Pods-NewName.release.xcconfig"; sourceTree = "<group>"; };
+		6C80D6502ADB699FD672F754 /* libPods-NewName.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewName.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC289942F4880B98EC55F39 /* Pods-NewName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewName.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewName/Pods-NewName.debug.xcconfig"; sourceTree = "<group>"; };
+		E70DF0B61D2BC96D001CCF95 /* RKRDistrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRDistrict.h; path = "!IDentities/RKRDistrict.h"; sourceTree = "<group>"; };
+		E70DF0B71D2BC96D001CCF95 /* RKRDistrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRDistrict.m; path = "!IDentities/RKRDistrict.m"; sourceTree = "<group>"; };
+		E70DF0B91D2BC9BF001CCF95 /* RKRStreet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRStreet.h; path = "!IDentities/RKRStreet.h"; sourceTree = "<group>"; };
+		E70DF0BA1D2BC9BF001CCF95 /* RKRStreet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRStreet.m; path = "!IDentities/RKRStreet.m"; sourceTree = "<group>"; };
+		E70DF0CF1D2C005A001CCF95 /* RKRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRError.h; path = "!IDentities/Error/RKRError.h"; sourceTree = "<group>"; };
+		E70DF0D01D2C005A001CCF95 /* RKRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRError.m; path = "!IDentities/Error/RKRError.m"; sourceTree = "<group>"; };
+		E70DF0D51D2C0BAB001CCF95 /* RKRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRBaseViewController.h; path = "!ViewControllers/Base/RKRBaseViewController.h"; sourceTree = "<group>"; };
+		E70DF0D61D2C0BAB001CCF95 /* RKRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRBaseViewController.m; path = "!ViewControllers/Base/RKRBaseViewController.m"; sourceTree = "<group>"; };
+		E70DF0D81D2C0BD4001CCF95 /* RKRSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchViewController.h; path = "!ViewControllers/Search/RKRSearchViewController.h"; sourceTree = "<group>"; };
+		E70DF0D91D2C0BD4001CCF95 /* RKRSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchViewController.m; path = "!ViewControllers/Search/RKRSearchViewController.m"; sourceTree = "<group>"; };
+		E70DF0DB1D2C0C4D001CCF95 /* RKRSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchCell.h; path = "!ViewControllers/Search/RKRSearchCell.h"; sourceTree = "<group>"; };
+		E70DF0DC1D2C0C4D001CCF95 /* RKRSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchCell.m; path = "!ViewControllers/Search/RKRSearchCell.m"; sourceTree = "<group>"; };
+		E70DF0DE1D2C0C90001CCF95 /* RKRStreetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRStreetCell.h; path = "!ViewControllers/Search/RKRStreetCell.h"; sourceTree = "<group>"; };
+		E70DF0DF1D2C0C90001CCF95 /* RKRStreetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRStreetCell.m; path = "!ViewControllers/Search/RKRStreetCell.m"; sourceTree = "<group>"; };
+		E70DF0E11D2C0DAF001CCF95 /* RKRSearchDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchDataManager.h; path = "!ViewControllers/Search/RKRSearchDataManager.h"; sourceTree = "<group>"; };
+		E70DF0E21D2C0DAF001CCF95 /* RKRSearchDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchDataManager.m; path = "!ViewControllers/Search/RKRSearchDataManager.m"; sourceTree = "<group>"; };
+		E70DF0E41D2C0F80001CCF95 /* RKRSearchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchNavigationController.h; path = "!ViewControllers/Search/RKRSearchNavigationController.h"; sourceTree = "<group>"; };
+		E70DF0E51D2C0F80001CCF95 /* RKRSearchNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchNavigationController.m; path = "!ViewControllers/Search/RKRSearchNavigationController.m"; sourceTree = "<group>"; };
+		E70DF0EA1D2C100D001CCF95 /* RKRSearchBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchBaseViewController.h; path = "!ViewControllers/Search/RKRSearchBaseViewController.h"; sourceTree = "<group>"; };
+		E70DF0EB1D2C100D001CCF95 /* RKRSearchBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchBaseViewController.m; path = "!ViewControllers/Search/RKRSearchBaseViewController.m"; sourceTree = "<group>"; };
+		E77BE34A1D2D9230006C9FE4 /* RKRDatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRDatabaseService.h; path = "!Services/Database services/RKRDatabaseService.h"; sourceTree = "<group>"; };
+		E77BE34B1D2D9230006C9FE4 /* RKRDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRDatabaseService.m; path = "!Services/Database services/RKRDatabaseService.m"; sourceTree = "<group>"; };
+		E77BE34D1D2D9289006C9FE4 /* RKRDistricsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRDistricsService.h; path = "!Services/Data services/RKRDistricsService.h"; sourceTree = "<group>"; };
+		E77BE34E1D2D9289006C9FE4 /* RKRDistricsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRDistricsService.m; path = "!Services/Data services/RKRDistricsService.m"; sourceTree = "<group>"; };
+		E77BE3501D2D9297006C9FE4 /* RKRApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRApiManager.h; path = "!Services/Api services/RKRApiManager.h"; sourceTree = "<group>"; };
+		E77BE3511D2D9297006C9FE4 /* RKRApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRApiManager.m; path = "!Services/Api services/RKRApiManager.m"; sourceTree = "<group>"; };
+		E77BE3521D2D9297006C9FE4 /* RKRSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSessionManager.h; path = "!Services/Api services/RKRSessionManager.h"; sourceTree = "<group>"; };
+		E77BE3531D2D9297006C9FE4 /* RKRSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSessionManager.m; path = "!Services/Api services/RKRSessionManager.m"; sourceTree = "<group>"; };
+		E77BE35D1D2D9411006C9FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E77BE35F1D2D9411006C9FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E77BE3601D2D9411006C9FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E77BE3621D2D9411006C9FE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E77BE3631D2D9411006C9FE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E77BE3661D2D9411006C9FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77BE3681D2D9412006C9FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77BE36B1D2D9412006C9FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77BE36D1D2D9412006C9FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78265641D2BC10B00E4A3EF /* NewName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78265681D2BC10B00E4A3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E782656A1D2BC10B00E4A3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E782656B1D2BC10B00E4A3EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E78265711D2BC10B00E4A3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E78265731D2BC10B00E4A3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E78265761D2BC10B00E4A3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E78265781D2BC10B00E4A3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FA9D131D2D94E400B32390 /* NewName copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewName copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FA9F921D2DAA0800B32390 /* RKRSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRSearchResultController.h; path = "!ViewControllers/Search/RKRSearchResultController.h"; sourceTree = "<group>"; };
+		E7FA9F931D2DAA0800B32390 /* RKRSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRSearchResultController.m; path = "!ViewControllers/Search/RKRSearchResultController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78265611D2BC10B00E4A3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EA185A613332C62158AE3F /* libPods-NewName.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA9D081D2D94E400B32390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA9D091D2D94E400B32390 /* libPods-NewName.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8188200207DF0C39943E596F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C80D6502ADB699FD672F754 /* libPods-NewName.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F567F1D98FBF2473FCA41D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC289942F4880B98EC55F39 /* Pods-NewName.debug.xcconfig */,
+				14BB78B8E7B3F208A9799B81 /* Pods-NewName.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E70DF0B31D2BC873001CCF95 /* ViewControllers (screens) */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0D41D2C0B66001CCF95 /* SearchViewController */,
+				E70DF0D51D2C0BAB001CCF95 /* RKRBaseViewController.h */,
+				E70DF0D61D2C0BAB001CCF95 /* RKRBaseViewController.m */,
+			);
+			name = "ViewControllers (screens)";
+			sourceTree = "<group>";
+		};
+		E70DF0B41D2BC87F001CCF95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0D21D2C00F1001CCF95 /* API services */,
+				E77BE3491D2D91FC006C9FE4 /* Database services */,
+				E70DF0D31D2C0104001CCF95 /* Data services */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E70DF0B51D2BC905001CCF95 /* Identities */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0CE1D2C0040001CCF95 /* Error */,
+				E70DF0CD1D2C003A001CCF95 /* District */,
+				E70DF0CC1D2C0034001CCF95 /* Street */,
+			);
+			name = Identities;
+			sourceTree = "<group>";
+		};
+		E70DF0CC1D2C0034001CCF95 /* Street */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0B91D2BC9BF001CCF95 /* RKRStreet.h */,
+				E70DF0BA1D2BC9BF001CCF95 /* RKRStreet.m */,
+			);
+			name = Street;
+			sourceTree = "<group>";
+		};
+		E70DF0CD1D2C003A001CCF95 /* District */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0B61D2BC96D001CCF95 /* RKRDistrict.h */,
+				E70DF0B71D2BC96D001CCF95 /* RKRDistrict.m */,
+			);
+			name = District;
+			sourceTree = "<group>";
+		};
+		E70DF0CE1D2C0040001CCF95 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0CF1D2C005A001CCF95 /* RKRError.h */,
+				E70DF0D01D2C005A001CCF95 /* RKRError.m */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
+		E70DF0D21D2C00F1001CCF95 /* API services */ = {
+			isa = PBXGroup;
+			children = (
+				E77BE3501D2D9297006C9FE4 /* RKRApiManager.h */,
+				E77BE3511D2D9297006C9FE4 /* RKRApiManager.m */,
+				E77BE3521D2D9297006C9FE4 /* RKRSessionManager.h */,
+				E77BE3531D2D9297006C9FE4 /* RKRSessionManager.m */,
+			);
+			name = "API services";
+			sourceTree = "<group>";
+		};
+		E70DF0D31D2C0104001CCF95 /* Data services */ = {
+			isa = PBXGroup;
+			children = (
+				E77BE34D1D2D9289006C9FE4 /* RKRDistricsService.h */,
+				E77BE34E1D2D9289006C9FE4 /* RKRDistricsService.m */,
+			);
+			name = "Data services";
+			sourceTree = "<group>";
+		};
+		E70DF0D41D2C0B66001CCF95 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E70DF0D81D2C0BD4001CCF95 /* RKRSearchViewController.h */,
+				E70DF0D91D2C0BD4001CCF95 /* RKRSearchViewController.m */,
+				E70DF0DB1D2C0C4D001CCF95 /* RKRSearchCell.h */,
+				E70DF0DC1D2C0C4D001CCF95 /* RKRSearchCell.m */,
+				E70DF0DE1D2C0C90001CCF95 /* RKRStreetCell.h */,
+				E70DF0DF1D2C0C90001CCF95 /* RKRStreetCell.m */,
+				E70DF0E11D2C0DAF001CCF95 /* RKRSearchDataManager.h */,
+				E70DF0E21D2C0DAF001CCF95 /* RKRSearchDataManager.m */,
+				E70DF0E41D2C0F80001CCF95 /* RKRSearchNavigationController.h */,
+				E70DF0E51D2C0F80001CCF95 /* RKRSearchNavigationController.m */,
+				E70DF0EA1D2C100D001CCF95 /* RKRSearchBaseViewController.h */,
+				E70DF0EB1D2C100D001CCF95 /* RKRSearchBaseViewController.m */,
+				E7FA9F921D2DAA0800B32390 /* RKRSearchResultController.h */,
+				E7FA9F931D2DAA0800B32390 /* RKRSearchResultController.m */,
+			);
+			name = SearchViewController;
+			sourceTree = "<group>";
+		};
+		E77BE3491D2D91FC006C9FE4 /* Database services */ = {
+			isa = PBXGroup;
+			children = (
+				E77BE34A1D2D9230006C9FE4 /* RKRDatabaseService.h */,
+				E77BE34B1D2D9230006C9FE4 /* RKRDatabaseService.m */,
+			);
+			name = "Database services";
+			sourceTree = "<group>";
+		};
+		E77BE35B1D2D9411006C9FE4 /* NewNameDev */ = {
+			isa = PBXGroup;
+			children = (
+				E77BE35F1D2D9411006C9FE4 /* AppDelegate.h */,
+				E77BE3601D2D9411006C9FE4 /* AppDelegate.m */,
+				E77BE3621D2D9411006C9FE4 /* ViewController.h */,
+				E77BE3631D2D9411006C9FE4 /* ViewController.m */,
+				E77BE3651D2D9411006C9FE4 /* Main.storyboard */,
+				E77BE3681D2D9412006C9FE4 /* Assets.xcassets */,
+				E77BE36A1D2D9412006C9FE4 /* LaunchScreen.storyboard */,
+				E77BE36D1D2D9412006C9FE4 /* Info.plist */,
+				E77BE35C1D2D9411006C9FE4 /* Supporting Files */,
+			);
+			path = NewNameDev;
+			sourceTree = "<group>";
+		};
+		E77BE35C1D2D9411006C9FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77BE35D1D2D9411006C9FE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E782655B1D2BC10B00E4A3EF = {
+			isa = PBXGroup;
+			children = (
+				E78265661D2BC10B00E4A3EF /* NewName */,
+				E77BE35B1D2D9411006C9FE4 /* NewNameDev */,
+				E78265651D2BC10B00E4A3EF /* Products */,
+				B9F567F1D98FBF2473FCA41D /* Pods */,
+				8188200207DF0C39943E596F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E78265651D2BC10B00E4A3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78265641D2BC10B00E4A3EF /* NewName.app */,
+				E7FA9D131D2D94E400B32390 /* NewName copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78265661D2BC10B00E4A3EF /* NewName */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA9F911D2DA4C200B32390 /* Storyboards */,
+				E70DF0B31D2BC873001CCF95 /* ViewControllers (screens) */,
+				E70DF0B41D2BC87F001CCF95 /* Services */,
+				E70DF0B51D2BC905001CCF95 /* Identities */,
+				E782656A1D2BC10B00E4A3EF /* AppDelegate.h */,
+				E782656B1D2BC10B00E4A3EF /* AppDelegate.m */,
+				E78265731D2BC10B00E4A3EF /* Assets.xcassets */,
+				E78265781D2BC10B00E4A3EF /* Info.plist */,
+				E78265671D2BC10B00E4A3EF /* Supporting Files */,
+			);
+			path = NewName;
+			sourceTree = "<group>";
+		};
+		E78265671D2BC10B00E4A3EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E78265681D2BC10B00E4A3EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7FA9F911D2DA4C200B32390 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E78265701D2BC10B00E4A3EF /* Main.storyboard */,
+				E78265751D2BC10B00E4A3EF /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78265631D2BC10B00E4A3EF /* NewName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E782657B1D2BC10B00E4A3EF /* Build configuration list for PBXNativeTarget "NewName" */;
+			buildPhases = (
+				246E2AFBDB19552477D03CBC /* 📦 Check Pods Manifest.lock */,
+				E78265601D2BC10B00E4A3EF /* Sources */,
+				E78265611D2BC10B00E4A3EF /* Frameworks */,
+				E78265621D2BC10B00E4A3EF /* Resources */,
+				16AFFF994AC50FA4DBADA283 /* 📦 Embed Pods Frameworks */,
+				52359453FB924A64C2A10947 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewName;
+			productName = NewName;
+			productReference = E78265641D2BC10B00E4A3EF /* NewName.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7FA9CF41D2D94E400B32390 /* NewName copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FA9D101D2D94E400B32390 /* Build configuration list for PBXNativeTarget "NewName copy" */;
+			buildPhases = (
+				E7FA9CF51D2D94E400B32390 /* 📦 Check Pods Manifest.lock */,
+				E7FA9CF61D2D94E400B32390 /* Sources */,
+				E7FA9D081D2D94E400B32390 /* Frameworks */,
+				E7FA9D0A1D2D94E400B32390 /* Resources */,
+				E7FA9D0E1D2D94E400B32390 /* 📦 Embed Pods Frameworks */,
+				E7FA9D0F1D2D94E400B32390 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewName copy";
+			productName = NewName;
+			productReference = E7FA9D131D2D94E400B32390 /* NewName copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E782655C1D2BC10B00E4A3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Onix-systems";
+				TargetAttributes = {
+					E78265631D2BC10B00E4A3EF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E782655F1D2BC10B00E4A3EF /* Build configuration list for PBXProject "NewName" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E782655B1D2BC10B00E4A3EF;
+			productRefGroup = E78265651D2BC10B00E4A3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78265631D2BC10B00E4A3EF /* NewName */,
+				E7FA9CF41D2D94E400B32390 /* NewName copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78265621D2BC10B00E4A3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78265771D2BC10B00E4A3EF /* LaunchScreen.storyboard in Resources */,
+				E78265741D2BC10B00E4A3EF /* Assets.xcassets in Resources */,
+				E78265721D2BC10B00E4A3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA9D0A1D2D94E400B32390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA9D0B1D2D94E400B32390 /* LaunchScreen.storyboard in Resources */,
+				E7FA9D0C1D2D94E400B32390 /* Assets.xcassets in Resources */,
+				E7FA9D0D1D2D94E400B32390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16AFFF994AC50FA4DBADA283 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewName/Pods-NewName-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		246E2AFBDB19552477D03CBC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52359453FB924A64C2A10947 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewName/Pods-NewName-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FA9CF51D2D94E400B32390 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FA9D0E1D2D94E400B32390 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewName/Pods-NewName-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FA9D0F1D2D94E400B32390 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewName/Pods-NewName-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78265601D2BC10B00E4A3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70DF0DD1D2C0C4D001CCF95 /* RKRSearchCell.m in Sources */,
+				E70DF0E01D2C0C90001CCF95 /* RKRStreetCell.m in Sources */,
+				E70DF0BB1D2BC9BF001CCF95 /* RKRStreet.m in Sources */,
+				E70DF0DA1D2C0BD4001CCF95 /* RKRSearchViewController.m in Sources */,
+				E70DF0D71D2C0BAB001CCF95 /* RKRBaseViewController.m in Sources */,
+				E70DF0EC1D2C100D001CCF95 /* RKRSearchBaseViewController.m in Sources */,
+				E77BE34F1D2D9289006C9FE4 /* RKRDistricsService.m in Sources */,
+				E70DF0E31D2C0DAF001CCF95 /* RKRSearchDataManager.m in Sources */,
+				E77BE3551D2D9297006C9FE4 /* RKRSessionManager.m in Sources */,
+				E70DF0B81D2BC96D001CCF95 /* RKRDistrict.m in Sources */,
+				E782656C1D2BC10B00E4A3EF /* AppDelegate.m in Sources */,
+				E77BE34C1D2D9230006C9FE4 /* RKRDatabaseService.m in Sources */,
+				E77BE3541D2D9297006C9FE4 /* RKRApiManager.m in Sources */,
+				E70DF0D11D2C005A001CCF95 /* RKRError.m in Sources */,
+				E70DF0E61D2C0F80001CCF95 /* RKRSearchNavigationController.m in Sources */,
+				E7FA9F941D2DAA0800B32390 /* RKRSearchResultController.m in Sources */,
+				E78265691D2BC10B00E4A3EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FA9CF61D2D94E400B32390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA9CF71D2D94E400B32390 /* RKRSearchCell.m in Sources */,
+				E7FA9CF81D2D94E400B32390 /* RKRStreetCell.m in Sources */,
+				E7FA9CF91D2D94E400B32390 /* RKRStreet.m in Sources */,
+				E7FA9CFA1D2D94E400B32390 /* RKRSearchViewController.m in Sources */,
+				E7FA9CFC1D2D94E400B32390 /* RKRBaseViewController.m in Sources */,
+				E7FA9CFD1D2D94E400B32390 /* RKRSearchBaseViewController.m in Sources */,
+				E7FA9CFE1D2D94E400B32390 /* RKRDistricsService.m in Sources */,
+				E7FA9CFF1D2D94E400B32390 /* RKRSearchDataManager.m in Sources */,
+				E7FA9D001D2D94E400B32390 /* RKRSessionManager.m in Sources */,
+				E7FA9D011D2D94E400B32390 /* RKRDistrict.m in Sources */,
+				E7FA9D021D2D94E400B32390 /* AppDelegate.m in Sources */,
+				E7FA9D031D2D94E400B32390 /* RKRDatabaseService.m in Sources */,
+				E7FA9D041D2D94E400B32390 /* RKRApiManager.m in Sources */,
+				E7FA9D051D2D94E400B32390 /* RKRError.m in Sources */,
+				E7FA9D061D2D94E400B32390 /* RKRSearchNavigationController.m in Sources */,
+				E7FA9D071D2D94E400B32390 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E77BE3651D2D9411006C9FE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77BE3661D2D9411006C9FE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77BE36A1D2D9412006C9FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77BE36B1D2D9412006C9FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E78265701D2BC10B00E4A3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78265711D2BC10B00E4A3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E78265751D2BC10B00E4A3EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78265761D2BC10B00E4A3EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78265791D2BC10B00E4A3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E782657A1D2BC10B00E4A3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E782657C1D2BC10B00E4A3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC289942F4880B98EC55F39 /* Pods-NewName.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewName/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Onix-systems.NewName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E782657D1D2BC10B00E4A3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BB78B8E7B3F208A9799B81 /* Pods-NewName.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewName/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Onix-systems.NewName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7FA9D111D2D94E400B32390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC289942F4880B98EC55F39 /* Pods-NewName.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NewName copy3-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Onix-systems.NewName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7FA9D121D2D94E400B32390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BB78B8E7B3F208A9799B81 /* Pods-NewName.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NewName copy3-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Onix-systems.NewName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E782655F1D2BC10B00E4A3EF /* Build configuration list for PBXProject "NewName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78265791D2BC10B00E4A3EF /* Debug */,
+				E782657A1D2BC10B00E4A3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E782657B1D2BC10B00E4A3EF /* Build configuration list for PBXNativeTarget "NewName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E782657C1D2BC10B00E4A3EF /* Debug */,
+				E782657D1D2BC10B00E4A3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FA9D101D2D94E400B32390 /* Build configuration list for PBXNativeTarget "NewName copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FA9D111D2D94E400B32390 /* Debug */,
+				E7FA9D121D2D94E400B32390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E782655C1D2BC10B00E4A3EF /* Project object */;
+}
